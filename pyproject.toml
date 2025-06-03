@@ -1,0 +1,27 @@
+[project]
+name = "rational"
+version = "1.0.0"
+description = "A custom Rational number library with creative arithmetic and rich operator overloading."
+authors = [
+    { name = "Samar Jyoti Pator" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/fatal-error-404-samar/Rational"
+Issues = "https://github.com/fatal-error-404-samar/Rational/issues"
